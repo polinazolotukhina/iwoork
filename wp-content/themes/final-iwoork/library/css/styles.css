@@ -1,0 +1,335 @@
+/* line 4, ../scss/_header.scss */
+.navbar-header img {
+  max-width: 20%;
+  margin-bottom: 20px;
+}
+
+/* line 10, ../scss/_header.scss */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: red!important;
+  background-color: transparent!important;
+  font-weight: bold!important;
+}
+
+/* line 16, ../scss/_header.scss */
+.navbar-default {
+  background-color: white;
+  border-color: #e7e7e7;
+  font-weight: bold;
+}
+
+/* line 23, ../scss/_header.scss */
+.navbar-nav {
+  text-transform: uppercase;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+/* line 28, ../scss/_header.scss */
+.navbar-nav li {
+  border-right: 1px solid black;
+}
+/* line 31, ../scss/_header.scss */
+.navbar-nav li:last-child {
+  border-right: none;
+}
+
+/* line 37, ../scss/_header.scss */
+.fa {
+  color: black;
+}
+/* line 39, ../scss/_header.scss */
+.fa:hover {
+  text-decoration: none;
+}
+
+/* line 44, ../scss/_header.scss */
+.fa-inverse {
+  color: white;
+}
+
+/*FOOTER*/
+/* line 51, ../scss/_header.scss */
+#myFooter {
+  background: black;
+  color: white;
+}
+/* line 54, ../scss/_header.scss */
+#myFooter p {
+  margin: 20px 0 20px 0;
+}
+
+/* line 1, ../scss/_global.scss */
+body {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+}
+
+/* line 5, ../scss/_global.scss */
+h1, h2, h3, h4, p {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+}
+
+/* line 9, ../scss/_global.scss */
+.semibold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+}
+
+/* line 17, ../scss/_global.scss */
+h1 {
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+/* line 21, ../scss/_global.scss */
+h2 {
+  font-size: 20px;
+}
+
+/* line 24, ../scss/_global.scss */
+h4 {
+  font-size: 18px;
+}
+
+/* line 28, ../scss/_global.scss */
+.delay-25s {
+  -webkit-animation-delay: 0.25s;
+  /* Chrome, Safari, Opera */
+  animation-delay: 0.25s;
+  animation-duration: 3s;
+}
+
+/* line 33, ../scss/_global.scss */
+.delay-05s {
+  -webkit-animation-delay: 0.5s;
+  /* Chrome, Safari, Opera */
+  animation-delay: 0.5s;
+  animation-duration: 3s;
+}
+
+/* line 38, ../scss/_global.scss */
+.delay-75s {
+  -webkit-animation-delay: 0.75s;
+  /* Chrome, Safari, Opera */
+  animation-delay: 0.75s;
+  -webkit-animation-duration: 3s;
+  /* Chrome, Safari, Opera */
+  animation-duration: 3s;
+}
+
+/* line 46, ../scss/_global.scss */
+.slow {
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+}
+
+/* line 1, ../scss/_homepage.scss */
+#hero {
+  background: url(../../images/Hero-img.JPG);
+  background-size: cover;
+  overflow: hidden;
+  height: 400px;
+  position: relative;
+}
+/* line 8, ../scss/_homepage.scss */
+#hero h1 {
+  color: white;
+  margin: 150px 0 200px 0;
+}
+/* line 12, ../scss/_homepage.scss */
+#hero .particles {
+  position: absolute;
+  display: block;
+}
+
+/* line 20, ../scss/_homepage.scss */
+#product h1 {
+  margin-top: 100px;
+}
+/* line 23, ../scss/_homepage.scss */
+#product #services {
+  margin-bottom: 100px;
+}
+/* line 25, ../scss/_homepage.scss */
+#product #services img {
+  margin-top: 100px;
+  margin-bottom: 33.33333px;
+}
+
+/* line 34, ../scss/_homepage.scss */
+#projects {
+  background: url(../../images/Bg/FeaturedProject_bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 39, ../scss/_homepage.scss */
+#projects img {
+  margin-top: 50px;
+}
+/* line 42, ../scss/_homepage.scss */
+#projects h1 {
+  margin-top: 100px;
+}
+/* line 46, ../scss/_homepage.scss */
+#projects h4 {
+  margin-top: -25px;
+  margin-left: 10px;
+  position: absolute;
+}
+/* line 51, ../scss/_homepage.scss */
+#projects a {
+  color: black;
+}
+/* line 53, ../scss/_homepage.scss */
+#projects a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+/* line 59, ../scss/_homepage.scss */
+.wrapper {
+  margin-bottom: 100px;
+}
+
+/* line 64, ../scss/_homepage.scss */
+#clients h1 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+/* line 68, ../scss/_homepage.scss */
+#clients .client {
+  margin-top: 50px;
+}
+
+/* line 74, ../scss/_homepage.scss */
+#clients-page h1 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+/* line 78, ../scss/_homepage.scss */
+#clients-page .client {
+  margin-top: 50px;
+}
+
+/* line 85, ../scss/_homepage.scss */
+#contact {
+  background: url(../../images/Bg/FeaturedProject_bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 91, ../scss/_homepage.scss */
+#contact .form-control {
+  border-radius: 0;
+}
+/* line 94, ../scss/_homepage.scss */
+#contact .btn-danger {
+  border-radius: 0;
+  border: none;
+}
+/* line 98, ../scss/_homepage.scss */
+#contact div.wpcf7-validation-errors, #contact .wpcf7-response-output {
+  border: 2px solid black;
+}
+/* line 102, ../scss/_homepage.scss */
+#contact div.wpcf7 {
+  margin-bottom: 100px;
+}
+
+/* line 107, ../scss/_homepage.scss */
+#contact-page {
+  background: url(../../images/Bg/FeaturedProject_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 111, ../scss/_homepage.scss */
+#contact-page h1 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+/* line 115, ../scss/_homepage.scss */
+#contact-page .form-control {
+  border-radius: 0;
+}
+/* line 118, ../scss/_homepage.scss */
+#contact-page .btn-danger {
+  border-radius: 0;
+  border: none;
+}
+/* line 122, ../scss/_homepage.scss */
+#contact-page div.wpcf7-validation-errors, #contact-page .wpcf7-response-output {
+  border: 2px solid black;
+}
+/* line 126, ../scss/_homepage.scss */
+#contact-page div.wpcf7 {
+  margin-bottom: 100px;
+}
+
+/* line 131, ../scss/_homepage.scss */
+.products {
+  height: 25px;
+  margin-bottom: 380px!important;
+}
+
+/* line 136, ../scss/_homepage.scss */
+.animate {
+  height: 200px;
+  text-align: center;
+}
+
+/*==========  Mobile First Method  ==========*/
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /* line 14, ../scss/_mobile.scss */
+  #hero h1 {
+    margin: 300px 0 1100px 0;
+  }
+
+  /* line 18, ../scss/_mobile.scss */
+  .right {
+    float: right;
+  }
+
+  /* line 21, ../scss/_mobile.scss */
+  a {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+  }
+
+  /* line 26, ../scss/_mobile.scss */
+  .navbar-header img {
+    max-width: 50%;
+    margin-top: 25px;
+  }
+
+  /* line 31, ../scss/_mobile.scss */
+  #projects h4 {
+    margin-top: -35px;
+    margin-left: 10px;
+  }
+
+  /* line 36, ../scss/_mobile.scss */
+  #clients-page {
+    min-height: 630px;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /* line 43, ../scss/_mobile.scss */
+  #hero {
+    height: 700px;
+  }
+  /* line 45, ../scss/_mobile.scss */
+  #hero h1 {
+    margin: 350px 0 400px 0;
+  }
+}
+/* Large Devices, Wide Screens */
+/* line 19, ../scss/styles.scss */
+img {
+  max-width: 100%;
+}

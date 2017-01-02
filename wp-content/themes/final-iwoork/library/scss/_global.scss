@@ -1,0 +1,52 @@
+body{
+	font-family: "Titillium Web", sans-serif;
+	font-weight: 200;
+}
+h1,h2,h3,h4,p{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+}
+.semibold {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+}
+
+
+
+
+h1{
+	font-size: 30px;
+	margin-top:$margin;
+}
+h2{
+	font-size: 20px;
+}
+h4{
+	font-size: 18px;
+}
+
+.delay-25s{
+    -webkit-animation-delay: 0.25s; /* Chrome, Safari, Opera */
+    animation-delay: 0.25s;
+    animation-duration: 3s;
+}
+.delay-05s{
+    -webkit-animation-delay: 0.5s; /* Chrome, Safari, Opera */
+    animation-delay: 0.5s;
+    animation-duration: 3s;
+}
+.delay-75s{
+    -webkit-animation-delay: 0.75s; /* Chrome, Safari, Opera */
+    animation-delay: 0.75s;
+    -webkit-animation-duration: 3s; /* Chrome, Safari, Opera */
+    animation-duration: 3s;
+}
+
+
+.slow{
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    
+}
+
+

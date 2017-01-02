@@ -1,0 +1,65 @@
+  
+
+/*==========  Mobile First Method  ==========*/
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+  	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	#hero {
+     	h1{
+			margin:300px 0 1100px 0;;
+		}
+	}
+	  .right{
+		float:right;
+	}
+	 a {
+     	padding-top:0!important;
+     	padding-bottom:0!important;
+     }
+   
+	.navbar-header img {
+	    max-width: 50%;
+	    margin-top: 25px;
+	}
+	#projects{
+		h4{
+			margin-top: -35px;
+	    	margin-left: 10px;
+		}
+	}
+	#clients-page{
+		min-height: 630px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+		#hero {
+			height: 700px;
+	     	h1{
+				margin:350px 0 400px 0;;
+			}
+		}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+
